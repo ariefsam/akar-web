@@ -7,6 +7,6 @@
             <li><a href="index.php/home/tentang_kami"<?php if ($current=="tentang_kami") echo " class=\"current\""?>><span class="link">Tentang Akar</span></a></li>
             <li><a href="portofolio.html"<?php if ($current=="portofolio") echo " class=\"current\""?>><span class="link">Portofolio</span></a></li>
             <li><a href="index.php/home/pelanggan"<?php if ($current=="pelanggan") echo " class=\"current\""?>><span class="link">Pelanggan</span></a></li>
-            <li><a href="contact.html"<?php if ($current=="hubungi_kami") echo " class=\"current\""?>><span class="link">Hubungi Kami</span></a></li>
+            <?php /*<li><a href="contact.html"<?php if ($current=="hubungi_kami") echo " class=\"current\""?>><span class="link">Hubungi Kami</span></a></li>?>*/?>
         </ul>
     </div></div>

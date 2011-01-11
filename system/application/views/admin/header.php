@@ -53,11 +53,9 @@
                 <!-- The navigation bar -->
                 <div id="navbar">
                     <ul class="nav">
-                        <li><a href="./">Home</a></li>
-                        <li><a href="list.php">Artikel</a></li>
-                        <li><a href="user.php">Member</a></li>
-                        <li><a href="forum.php">Forum</a></li>
-                        <li><a href="iklan.php">Iklan</a></li>
+                        <li><a href="../index.php/admin">Home</a></li>
+                        <li><a href="../index.php/admin/artikel">Artikel</a></li>
+                        <li><a href="../index.php/admin/front">Halaman</a></li>
                     </ul>
                 </div>
                 <!-- End of navigation bar" -->

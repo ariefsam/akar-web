@@ -2,13 +2,15 @@
                     <div class="box">
                         <h3>Artikel Terbaru</h3>
                         <ul>
-                            <li><a href="">Percetakan Buku</a></li>
-                            <li><a href="">Promo Kalender Kampanye</a></li>
-                            <li><a href="">Pembuatan Spanduk Murah</a></li>
-                            <li><a href="">Cetak Poster Digital printing</a></li>
-                            <li><a href="">Pembuatan Stiker Murah</a></li>
+                            <?php $daftar_artikel = $this->artikel->get_semua_artikel();
+                                    foreach ($daftar_artikel as $artikel){
+                                    ?>
+                            <li><a href="index.php/artikel/page/<?php echo $artikel['id']?>"><?php echo $artikel['judul']?></a></li>
+                                <?php
+                                    }?>
                         </ul>
                     </div>
+                    <?php /*
                     <div class="box">
                         <h3>Daftar Harga</h3>
                         <ul>
@@ -23,6 +25,7 @@
                         <h3>Promo</h3>
                         <img src="images/promo.png" />
                     </div>
+                     */ ?>
                     <div class="clear"></div>
                 </div>
                 <div id="copyright"><a href="#">Akar Corporation</a></div>

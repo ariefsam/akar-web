@@ -266,41 +266,7 @@ ul.slider-img-list li{
 overflow: hidden; float: left; width: 380px; height: 202px; vertical-align:bottom;
 }
 
-a.package1{
-	width:270px;
-	height:180px;
-	display:block;
-	background:url(images/percetakan_buku.png) top left no-repeat;
-	margin:0 auto;
-}
-a.package2{
-	width:270px;
-	height:180px;
-	display:block;
-	background:url(images/sertifikat_acara.png) top left no-repeat;
-	margin:0 auto;
-}
-a.package3{
-	width:270px;
-	height:180px;
-	display:block;
-	background:url(images/kalender_kampanye.png) top left no-repeat;
-	margin:0 auto;
-}
-a.package4{
-	width:270px;
-	height:180px;
-	display:block;
-	background:url(images/spanduk.png) top left no-repeat;
-	margin:0 auto;
-}
-a.package5{
-	width:270px;
-	height:180px;
-	display:block;
-	background:url(images/stiker.png) top left no-repeat;
-	margin:0 auto;
-}
+
 .sliderImages span, .arrows span{
 	display:none;
 }

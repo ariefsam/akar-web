@@ -1,7 +1,11 @@
-<?php
-/* 
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 
+<div class="blog"><?php
+
+$pecah = explode("<br>", $artikel->isi);
+foreach ($pecah as $p){
+    echo "<p>" . $p . "</p>";
+}
 ?>
+<br />
+<div class="info">Diposkan <?php echo $artikel->tanggal;
+?></div></div>

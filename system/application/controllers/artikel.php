@@ -22,4 +22,14 @@ class Artikel extends Controller {
         $this->load->view('blog', $data);
     }
 
+    function page($id=1)
+    {
+        $data = new stdClass();
+        $data->view_content = "artikel";
+        $data->artikel = $this->artikel->get_artikel($id);
+        $data->current = "artikel";
+        $data->title = $data->artikel->judul;
+        $this->load->view('blog', $data);
+    }
+
 }

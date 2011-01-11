@@ -21,6 +21,7 @@
                 <span>Halaman Depan</span>
             </a>
         </li>
+        <?php /*
         <li>
             <a href="user.php" title="Atur data member" class="tooltip">
                 <img src="index_files/16_48x48.png" alt="" />
@@ -33,6 +34,8 @@
                 <span>Forum</span>
             </a>
         </li>
+          */?>
+
 
     </ul>
     <!-- End of Big buttons -->
