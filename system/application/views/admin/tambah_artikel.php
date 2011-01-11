@@ -9,7 +9,7 @@
         <!-- First tab -->
         <div id="tabs-1">
             <!-- Form -->
-            <form method="post" action="../index.php/admin/artikel/inset">
+            <form method="post" action="../index.php/admin/artikel/insert">
                 <!-- Fieldset -->
                 <fieldset>
                     <p>
@@ -22,7 +22,7 @@
                         <!-- End of WYSIWYG editor -->
                     </p>
                     <p>
-                        <input class="button" type="submit" value="Update" name="submit" /> <a href="../index.php/admin/front">Ke Daftar Artikel</a>
+                        <input class="button" type="submit" value="Terbitkan" name="submit" /> <a href="../index.php/admin/front">Ke Daftar Artikel</a>
                     </p>
                 </fieldset>
                 <!-- End of fieldset -->

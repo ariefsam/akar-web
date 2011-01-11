@@ -3,7 +3,7 @@
     <div class="inner">
         <ul>
             <li><a href="index.php"<?php if ($current=="home") echo " class=\"current\""?>><span class="link">Home</span></a></li>
-            <li><a href="index.php/home/artikel"<?php if ($current=="artikel") echo " class=\"current\""?>><span class="link">Artikel</span></a></li>
+            <li><a href="index.php/artikel"<?php if ($current=="artikel") echo " class=\"current\""?>><span class="link">Artikel</span></a></li>
             <li><a href="index.php/home/tentang_kami"<?php if ($current=="tentang_kami") echo " class=\"current\""?>><span class="link">Tentang Akar</span></a></li>
             <li><a href="portofolio.html"<?php if ($current=="portofolio") echo " class=\"current\""?>><span class="link">Portofolio</span></a></li>
             <li><a href="index.php/home/pelanggan"<?php if ($current=="pelanggan") echo " class=\"current\""?>><span class="link">Pelanggan</span></a></li>

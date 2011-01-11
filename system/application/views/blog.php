@@ -22,9 +22,9 @@
         <div id="hold">
 
           <div id="content">
-          <div id="subheader"><h2><?php echo $halaman->judul?></h2></div>
+          <div id="subheader"><h2>Artikel</h2></div>
             <div id="leftcolumn">
-                <?php echo $halaman->isi?>
+                <?php $this->load->view($view_content)?>
             </div>
       <div id="rightcolumn">
                         <h3>recent blog entries</h3>

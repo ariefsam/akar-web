@@ -4,13 +4,13 @@
     <!-- Big buttons -->
     <ul class="dash">
         <li>
-            <a href="new_artikel.php" title="Tulis artikel baru" class="tooltip">
+            <a href="../index.php/admin/artikel/tambah" title="Tulis artikel baru" class="tooltip">
                 <img src="index_files/8_48x480.png" alt="" />
                 <span>Artikel Baru</span>
             </a>
         </li>
         <li>
-            <a href="list.php" title="Atur artikel yang sudah terbit" class="tooltip">
+            <a href="../index.php/admin/artikel/page" title="Atur artikel yang sudah terbit" class="tooltip">
                 <img src="index_files/7_48x480.png" alt="" />
                 <span>Artikel</span>
             </a>

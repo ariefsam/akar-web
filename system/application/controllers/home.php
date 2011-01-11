@@ -38,22 +38,5 @@ class Home extends Controller {
         $data->halaman = $this->halaman->get_halaman(3);
         $this->load->view('sub', $data);
     }
-
-    function artikel($id=0)
-    {
-        if ($id==0) redirect('home/l_artikel');
-        $data = new stdClass();
-        $data->current = "pelanggan";
-        $data->atas = "Pelanggan";
-        $data->title = "Pelanggan Kami";
-        $data->view_content = 'pelanggan';
-        $data->halaman = $this->halaman->get_artikel($id);
-        $this->load->view('blog', $data);
-    }
-
-    function l_artikel()
-    {
-        
-    }
-
+    
 }

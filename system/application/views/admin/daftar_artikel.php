@@ -6,9 +6,10 @@
     <table class="fullwidth" cellpadding="0" cellspacing="0" border="0">
         <thead>
             <tr>
-                <td>No</td>
-                <td>Tanggal</td>
+                <td width="30px">No</td>
+                <td width="100px">Tanggal</td>
                 <td>Judul</td>
+                <td>Cuplikan</td>
                 <td></td>
             </tr>
         </thead>
@@ -20,6 +21,7 @@
                 <td><?php echo $i++?></td>
                 <td><?php echo $a['tanggal']?></td>
                 <td><?php echo $a['judul']?></td>
+                <td><?php echo substr(htmlentities($a['isi']),0,200);?></td>
                 <td width="60px">
                     <ul class="ui-widget ui-helper-clearfix" id="icons">
                     <li title="Edit" class="ui-state-default ui-corner-all">
@@ -55,4 +57,3 @@
         }
 
 </script>
-<?php require "footer.php"?>

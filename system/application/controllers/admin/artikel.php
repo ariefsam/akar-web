@@ -51,13 +51,27 @@ class Artikel extends Controller {
     {
         if($this->input->post('submit'))
         {
+            $data = array(
+                "isi" => $this->input->post('isi'),
+                "judul" => $this->input->post('judul')
+            );
+            $this->artikel->insert_artikel($data);
 
+        redirect('admin/artikel/page');
         }
         
         else
         {
             redirect('admin/artikel/page');
         }
+    }
+
+    function tambah()
+    {
+        $data = new stdClass();
+        $data->title = "Tambah Artikel";
+        $data->view_content = "tambah_artikel";
+        $this->load->view('admin/home', $data);
     }
 
 }

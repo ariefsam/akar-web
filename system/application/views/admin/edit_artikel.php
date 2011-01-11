@@ -19,7 +19,7 @@
                     </p>
                     <p>
                         <label for="lf">Tanggal: </label>
-                        <input class="lf" name="judul" type="text" value="<?php echo $artikel->tanggal?>" />
+                        <input class="lf" name="tanggal" type="text" value="<?php echo $artikel->tanggal?>" />
                     </p>
                     <p>
                         <!-- WYSIWYG editor -->
