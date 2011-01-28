@@ -34,7 +34,7 @@
                 <div id="top">
                     <!-- Logo -->
                     <div class="logo">
-                        <a href="../index.php/admin/home" title="Administration Home" class="tooltip"><img src="../images/logo_akar.png" height="80px" alt="Logo Akars" /></a>
+                        <a href="home.akr" title="Administration Home" class="tooltip"><img src="../images/logo_akar.png" height="80px" alt="Logo Akars" /></a>
                     </div>
                     <!-- End of Logo -->
 
@@ -53,9 +53,10 @@
                 <!-- The navigation bar -->
                 <div id="navbar">
                     <ul class="nav">
-                        <li><a href="../index.php/admin">Home</a></li>
-                        <li><a href="../index.php/admin/artikel">Artikel</a></li>
-                        <li><a href="../index.php/admin/front">Halaman</a></li>
+                        <li><a href="home.akr">Home</a></li>
+                        <li><a href="artikel">Artikel</a></li>
+                        <li><a href="front">Halaman</a></li>
+                        <li><a href="kontak">Kontak</a></li>
                     </ul>
                 </div>
                 <!-- End of navigation bar" -->

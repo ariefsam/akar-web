@@ -24,7 +24,7 @@
         <li>
             <a href="kontak" title="0 new messages" class="tooltip">
             <img src="index_files/25_48x48.png" alt="" />
-            <span>Inbox</span>
+            <span>Kontak</span>
             </a>
         </li>
         <?php /*

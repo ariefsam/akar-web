@@ -22,4 +22,20 @@ class Kontak_model extends Model {
         return $data;
     }
 
+    function update_kontak($id_kontak, $data)
+    {
+        $this->db->where('id', $id_kontak);
+        return $this->db->update('kontak', $data);
+    }
+
+    function hapus_kontak($id)
+    {
+        return $this->db->delete('kontak', array('id' => $id));
+    }
+
+    function insert_kontak($data)
+    {
+        $this->db->insert('kontak', $data);
+    }
+
 }

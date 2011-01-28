@@ -6,6 +6,7 @@ class Home extends Controller {
         parent::Controller();
         $this->load->model('Halaman_model', 'halaman');
         $this->load->model('Artikel_model', 'artikel');
+        $this->load->model('Berita_model', 'berita');
     }
 
     function index($id=1)

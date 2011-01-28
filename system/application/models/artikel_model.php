@@ -48,4 +48,9 @@ class Artikel_model extends Model {
         return $this->db->update('artikel', $data);
     }
 
+    function hapus_artikel($id)
+    {
+        return $this->db->delete('artikel', array('id' => $id));
+    }
+
 }

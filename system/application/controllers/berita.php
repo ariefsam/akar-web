@@ -1,7 +1,7 @@
 <?php
-class Artikel extends Controller {
+class Berita extends Controller {
 
-    function Artikel()
+    function Berita()
     {
         parent::Controller();
         $this->load->model('Artikel_model', 'artikel');
@@ -10,16 +10,17 @@ class Artikel extends Controller {
 
     function index()
     {
-        redirect('artikel/l_artikel');
+        redirect('berita/l_berita');
     }
 
-    function l_artikel()
+    function l_berita()
     {
         $data = new stdClass();
-        $data->view_content = "kumpulan_artikel";
+        $data->view_content = "kumpulan_berita";
+        $data->daftar_berita = $this->berita->get_semua_berita();
         $data->daftar_artikel = $this->artikel->get_semua_artikel();
-        $data->current = "artikel";
-        $data->title = "Artikel";
+        $data->current = "berita";
+        $data->title = "Berita";
         $data->kontak = $this->Kontak_model->get_kontak();
         $this->load->view('blog', $data);
     }
@@ -28,10 +29,10 @@ class Artikel extends Controller {
     {
         $data = new stdClass();
         $data->kontak = $this->Kontak_model->get_kontak();
-        $data->view_content = "artikel";
-        $data->artikel = $this->artikel->get_artikel($id);
-        $data->current = "artikel";
-        $data->title = $data->artikel->judul;
+        $data->view_content = "berita";
+        $data->berita = $this->berita->get_berita($id);
+        $data->current = "berita";
+        $data->title = $data->berita->judul;
         $this->load->view('blog', $data);
     }
 

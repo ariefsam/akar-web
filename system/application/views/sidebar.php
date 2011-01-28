@@ -17,7 +17,8 @@
                         </ul>
                         <h3>Hubungi Kami</h3>
                         <div id="ja-topsl1" style="text-align: center">
-                            <?php                                
+                            <?php
+                            $kontak = $this->Kontak_model->get_kontak();
                                 foreach ($kontak as $d) {
                             ?>
                             <h4><?php echo $d['bagian']?></h4><br />

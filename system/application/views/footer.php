@@ -8,7 +8,18 @@
                             <?php $daftar_artikel = $this->artikel->get_semua_artikel();
                                     foreach ($daftar_artikel as $artikel){
                                     ?>
-                            <li><a href="index.php/artikel/page/<?php echo $artikel['id']?>"><?php echo $artikel['judul']?></a></li>
+                            <li><a href="index.php/artikel/page/<?php echo $artikel['id']?>/<?php echo $artikel['judul']?>.akr"><?php echo $artikel['judul']?></a></li>
+                                <?php
+                                    }?>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h3>Berita Terbaru</h3>
+                        <ul>
+                            <?php $daftar_berita = $this->berita->get_semua_berita();
+                                    foreach ($daftar_berita as $berita){
+                                    ?>
+                            <li><a href="index.php/berita/page/<?php echo $berita['id']?>/<?php echo $berita['judul']?>.akr"><?php echo $berita['judul']?></a></li>
                                 <?php
                                     }?>
                         </ul>
