@@ -1,4 +1,7 @@
-                <div id="footer">
+<iframe src="http://www.facebook.com/plugins/like.php?href=akarcorporation.com"
+        scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:80px"></iframe>
+<div id="footer">
                     <div class="box">
                         <h3>Artikel Terbaru</h3>
                         <ul>
@@ -28,7 +31,10 @@
                      */ ?>
                     <div class="clear"></div>
                 </div>
-                <div id="copyright"><a href="#">Akar Corporation</a></div>
+<div id="copyright">
+        
+
+    <a href="#">Akar Corporation</a></div>
             </div>
         </div>
     </body>

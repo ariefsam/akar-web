@@ -54,7 +54,7 @@ img.border{
 	width:100%;
 	background:url(images/header.jpg) repeat-x top;
 	height:64px;
-	text-align:center;
+	text-align:left;
 	padding-top:15px;
 }
 /* === Logo === */

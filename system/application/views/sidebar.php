@@ -15,23 +15,21 @@
                                 </ul>
                             </li>
                         </ul>
-                        <h3>Testimonial</h3>
-                        <ul>
-                            <li class="testimonial">
-                                <ul>
-                                    <li class="extract">"Luar biasa..."</li>
-                                    <li class="testimonial-main">Pekerjaan akar printing sangat berkualitas... Pelayanan baik dan tepat waktu</li>
-                                    <li class="testimonial-author">by Joni Hermawan - Kopi GS</li>
-                                </ul>
-                            </li>
-                            <li class="testimonial">
-                                <ul>
-                                    <li class="extract">"Tepat waktu...."</li>
-                                    <li class="testimonial-main">Akar Printing memiliki komitmen yang tinggi untuk menyelesaikan program tepat waktu.... bahkan lebih cepat</li>
-                                    <li class="testimonial-author">by Rani - Partai Hanura</li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <h3>Hubungi Kami</h3>
+                        <div id="ja-topsl1" style="text-align: center">
+                            <?php                                
+                                foreach ($kontak as $d) {
+                            ?>
+                            <h4><?php echo $d['bagian']?></h4><br />
+                            <a href="ymsgr:sendIM?<?php echo $d['ym']?>">
+                                <img border="0" src="http://opi.yahoo.com/online?u=<?php echo $d['ym']?>&amp;m=g&amp;t=14">
+                            </a><br />
+                            <?php echo $d['nama']?><br />
+                            YM: <?php echo $d['ym']?><br />
+                            HP: <?php echo $d['hp']?><br /><br /><br />
+                            <?php }?>
+
+                        </div>                        
                         <div class="outerhol">
                         </div>
                     </div>

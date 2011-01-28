@@ -32,10 +32,10 @@
 <!-- Footer -->
 <div id="footer">
     <p class="mid">
-        <a href="#top" title="Top" class="tooltip">Top</a>&middot;
-        <a href="index.php" title="Halaman Awal" class="tooltip">Home</a>&middot;
-        <a href="password.php" title="Ganti password" class="tooltip">Ganti Password</a>&middot;
-        <a href="login.php?action=logout" title="Log keluar session Administrator" class="tooltip">Logout</a>
+        <a href="#t" title="Top" class="tooltip">Top</a>&middot;
+        <a href="#" title="Halaman Awal" class="tooltip">Home</a>&middot;
+        <a href="#" title="Ganti password" class="tooltip">Ganti Password</a>&middot;
+        <a href="#" title="Log keluar session Administrator" class="tooltip">Logout</a>
     </p>
     <p class="mid">
         <!-- Change this to your own once purchased -->

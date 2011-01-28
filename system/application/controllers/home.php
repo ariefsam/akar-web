@@ -14,6 +14,7 @@ class Home extends Controller {
         $data->view_content = 'depan';
         $data->current = "home";
         $data->title = "Home";
+        $data->kontak = $this->Kontak_model->get_kontak();
         $data->halaman = $this->halaman->get_halaman($id);
         $this->load->view('base', $data);
     }
@@ -21,6 +22,7 @@ class Home extends Controller {
     function tentang_kami()
     {
         $data = new stdClass();
+        $data->kontak = $this->Kontak_model->get_kontak();
         $data->current = "tentang_kami";
         $data->atas = "Tentang Kami";
         $data->title = "Tentang Kami";
@@ -32,6 +34,7 @@ class Home extends Controller {
     function pelanggan()
     {
         $data = new stdClass();
+        $data->kontak = $this->Kontak_model->get_kontak();
         $data->current = "pelanggan";
         $data->atas = "Pelanggan";
         $data->title = "Pelanggan Kami";

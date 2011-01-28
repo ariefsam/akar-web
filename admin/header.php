@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <base href="<?php echo base_url()?>"
         <!-- Meta -->
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1;charset=windows-1252" />
         <!-- End of Meta -->

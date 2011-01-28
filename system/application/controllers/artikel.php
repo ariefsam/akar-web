@@ -19,12 +19,14 @@ class Artikel extends Controller {
         $data->daftar_artikel = $this->artikel->get_semua_artikel();
         $data->current = "artikel";
         $data->title = "Artikel";
+        $data->kontak = $this->Kontak_model->get_kontak();
         $this->load->view('blog', $data);
     }
 
     function page($id=1)
     {
         $data = new stdClass();
+        $data->kontak = $this->Kontak_model->get_kontak();
         $data->view_content = "artikel";
         $data->artikel = $this->artikel->get_artikel($id);
         $data->current = "artikel";
