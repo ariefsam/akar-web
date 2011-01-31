@@ -5,6 +5,8 @@ class Kontak extends Controller {
     {
         parent::Controller();
         $this->load->model('Kontak_model', 'kontak');
+        if(!$this->session->userdata('admin'))
+            redirect('admin/login');
     }
 
     function index()

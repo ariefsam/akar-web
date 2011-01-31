@@ -5,6 +5,8 @@ class Berita extends Controller {
     {
         parent::Controller();
         $this->load->model('Berita_model', 'berita');
+        if(!$this->session->userdata('admin'))
+            redirect('admin/login');
     }
 
     function index()

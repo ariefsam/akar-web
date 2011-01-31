@@ -785,3 +785,37 @@ text-shadow:#0b3a7f 1px 1px;
 #copyright a{
 	color:#dce9f8;
 }
+
+.chat {
+    background: none repeat scroll 0 0 #1159A8;
+    padding: 5px;
+}
+
+.chat div {
+    height: 280px;
+    overflow: auto;
+}
+
+.chat .odd {
+    background-color: whitesmoke;
+    height: auto;
+    padding: 5px;
+}
+
+.chat .even {
+    padding: 5px;
+    height: auto;
+    background-color: #B4B3F3;
+}
+
+.chat .isian {
+    background-color: #EEE;
+    height: auto;
+    padding: 5px;
+    font-size: 9pt;
+    border: none;
+}
+
+.chat td {
+    border: none;
+}

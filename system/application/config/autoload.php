@@ -108,7 +108,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('Kontak_model');
+$autoload['model'] = array('Kontak_model', 'Chat');
 
 
 

@@ -4,6 +4,8 @@ class Home extends Controller {
     function Home()
     {
         parent::Controller();
+        if(!$this->session->userdata('admin'))
+            redirect('admin/login');
     }
 
     function index()

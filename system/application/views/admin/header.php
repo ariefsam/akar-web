@@ -42,7 +42,7 @@
                     <div class="meta">
                         <p>Selamat Datang Admin!</p>
                         <ul>
-                            <li><a href="login.php?action=logout" title="Log keluar session Administrator" class="tooltip"><span class="ui-icon ui-icon-power"></span>Logout</a></li>
+                            <li><a href="login/logout" title="Log keluar session Administrator" class="tooltip"><span class="ui-icon ui-icon-power"></span>Logout</a></li>
                             
                         </ul>
                     </div>
@@ -55,8 +55,10 @@
                     <ul class="nav">
                         <li><a href="home.akr">Home</a></li>
                         <li><a href="artikel">Artikel</a></li>
+                        <li><a href="berita">Berita</a></li>
                         <li><a href="front">Halaman</a></li>
                         <li><a href="kontak">Kontak</a></li>
+                        <li><a href="media">Gambar</a></li>
                     </ul>
                 </div>
                 <!-- End of navigation bar" -->

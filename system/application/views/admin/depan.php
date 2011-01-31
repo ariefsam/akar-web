@@ -16,6 +16,18 @@
             </a>
         </li>
         <li>
+            <a href="berita/tambah" title="Tulis berita baru" class="tooltip">
+                <img src="index_files/8_48x480.png" alt="" />
+                <span>Berita Baru</span>
+            </a>
+        </li>
+        <li>
+            <a href="berita/page" title="Atur berita yang sudah terbit" class="tooltip">
+                <img src="index_files/7_48x480.png" alt="" />
+                <span>Berita</span>
+            </a>
+        </li>
+        <li>
             <a href="front" title="Atur halaman depan" class="tooltip">
                 <img src="index_files/29_48x48.png" alt="" />
                 <span>Halaman Depan</span>
@@ -25,6 +37,12 @@
             <a href="kontak" title="0 new messages" class="tooltip">
             <img src="index_files/25_48x48.png" alt="" />
             <span>Kontak</span>
+            </a>
+        </li>
+        <li>
+            <a href="media" class="tooltip" title="Lorem ipsum" href="">
+            <img alt="" src="index_files/20_48x48.png">
+            <span>Media</span>
             </a>
         </li>
         <?php /*

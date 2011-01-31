@@ -5,6 +5,8 @@ class Artikel extends Controller {
     {
         parent::Controller();
         $this->load->model('Artikel_model', 'artikel');
+        if(!$this->session->userdata('admin'))
+            redirect('admin/login');
     }
 
     function index()

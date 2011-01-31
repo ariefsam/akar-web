@@ -5,6 +5,8 @@ class Front extends Controller {
     {
         parent::Controller();
         $this->load->model('Halaman_model', 'halaman');
+        if(!$this->session->userdata('admin'))
+            redirect('admin/login');
     }
 
     function index()

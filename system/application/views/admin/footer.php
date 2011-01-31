@@ -32,7 +32,7 @@
 <!-- Footer -->
 <div id="footer">
     <p class="mid">
-        <a href="#t" title="Top" class="tooltip">Top</a>&middot;
+        <a href="#" title="Top" class="tooltip">Top</a>&middot;
         <a href="#" title="Halaman Awal" class="tooltip">Home</a>&middot;
         <a href="#" title="Ganti password" class="tooltip">Ganti Password</a>&middot;
         <a href="#" title="Log keluar session Administrator" class="tooltip">Logout</a>
